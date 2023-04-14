@@ -13,3 +13,11 @@ valueDisplays.forEach((valueDisplay) => {
         }
     }, duration);
 });
+
+document.querySelector("#link-copy").addEventListener("click", function () {
+    navigator.clipboard.writeText("toitenlakhoa.github.io");
+    document.querySelector('.js-profile-card').classList.add('active');
+    setTimeout(function(){
+        document.querySelector('.js-profile-card').classList.remove('active');
+    }, 750);
+});
