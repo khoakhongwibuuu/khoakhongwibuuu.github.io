@@ -6,11 +6,12 @@ html {
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
 }
 
 body {
-    font-family: Quicksand, sans-serif;
+
     color: #324e63
 }
 
@@ -264,7 +265,6 @@ a:hover {
 .profile-card__button {
     background: 0 0;
     border: none;
-    font-family: Quicksand, sans-serif;
     font-weight: 700;
     font-size: 19px;
     margin: 15px 35px;
@@ -430,5 +430,5 @@ a:hover {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-    color : rgba(223, 45, 70, .75);
+    color: rgba(223, 45, 70, .75);
 }
