@@ -1,7 +1,7 @@
 const FOLLOWER_VAL = 3;
-const FOLLOWING_VAL = 19;
+const FOLLOWING_VAL = 22;
 const REPO_VAL = 10;
-const STAR_VAL = 12;
+const STAR_VAL = 13;
 
 let followers = document.querySelector("#followers-count");
 let followings = document.querySelector("#following-count");
