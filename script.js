@@ -17,7 +17,11 @@ valueDisplays.forEach((valueDisplay) => {
 document.querySelector("#link-copy").addEventListener("click", function () {
     navigator.clipboard.writeText("toitenlakhoa.github.io");
     document.querySelector('.js-profile-card').classList.add('active');
-    setTimeout(function(){
+    setTimeout(function () {
         document.querySelector('.js-profile-card').classList.remove('active');
-    }, 750);
+    }, 1000);
+});
+
+document.querySelector("#close-message").addEventListener("click", function () {
+    document.querySelector('.js-profile-card').classList.remove('active');
 });
