@@ -1,5 +1,6 @@
+window.location = "https://youtu.be/dQw4w9WgXcQ"
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 200;
+let interval = 3;
 
 let followers = document.querySelector("#followers-count");
 let followings = document.querySelector("#following-count");

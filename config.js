@@ -1,9 +1,9 @@
-// const FOLLOWER_VAL = 3;
-// const FOLLOWING_VAL = 23;
-// const REPO_VAL = 9;
-// const STAR_VAL = 14;
-const FOLLOWER_VAL = 99999;
-const FOLLOWING_VAL = 99999;
-const REPO_VAL = 99999;
-const STAR_VAL = 99999;
+const FOLLOWER_VAL = 3;
+const FOLLOWING_VAL = 23;
+const REPO_VAL = 9;
+const STAR_VAL = 14;
+// const FOLLOWER_VAL = 100;
+// const FOLLOWING_VAL = 100;
+// const REPO_VAL = 100;
+// const STAR_VAL = 100;
 const PROFILE_LINK = 'khoakhongwibuuu.github.io'
